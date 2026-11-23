@@ -34,16 +34,6 @@ HTML, CSS, and JavaScript are separate:
 | `dogs.js`    | SVG dog illustrations and breed appearance                            |
 | `audio/`     | Panting and pawstep recordings with credits                           |
 
-## Run locally
-
-From this folder, run:
-
-```sh
-python3 -m http.server 8000
-```
-
-Open http://localhost:8000. Use a local server rather than double-clicking the HTML file. Localhost and HTTPS support the Web Crypto API used for password verification.
-
 ## How the interaction works
 
 The selected dog IDs are stored in `data.walkSelection`. Clicking **Start walk** calls `toggleWalk()`, which combines that selection with the current walk state to create a shared walk. No dogs selected means the app prompts the user to choose a dog first. One selected dog produces a solo walk; several selected dogs run together.
