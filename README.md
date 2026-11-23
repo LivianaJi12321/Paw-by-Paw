@@ -26,13 +26,13 @@ The interaction I am most excited about is what happens when users press **Start
 
 HTML, CSS, and JavaScript are separate:
 
-| File | Purpose |
-| --- | --- |
-| `index.html` | Page structure and script links |
-| `style.css` | Hand-drawn colors, layout, transitions, and animations |
-| `app.js` | State, local login, walk timer, records, calendar, and event handlers |
-| `dogs.js` | SVG dog illustrations and breed appearance |
-| `audio/` | Panting and pawstep recordings with credits |
+| File         | Purpose                                                               |
+| ------------ | --------------------------------------------------------------------- |
+| `index.html` | Page structure and script links                                       |
+| `style.css`  | Hand-drawn colors, layout, transitions, and animations                |
+| `app.js`     | State, local login, walk timer, records, calendar, and event handlers |
+| `dogs.js`    | SVG dog illustrations and breed appearance                            |
+| `audio/`     | Panting and pawstep recordings with credits                           |
 
 ## Run locally
 
